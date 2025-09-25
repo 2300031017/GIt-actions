@@ -6,7 +6,7 @@
     RUN apk add --no-cache git
     
     # Clone your frontend repo
-    RUN git clone https://github.com/2300031017/docker-git-ecommerce-back]end.git .
+    RUN git clone https://github.com/2300031017/docker-git-ecommerce-backend.git .
     
     # Install deps and build
     RUN npm install
